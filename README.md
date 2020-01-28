@@ -1,4 +1,4 @@
-# ___________________________algorithm_in_detail______________________________
+# ___________________________algorithm_in_detail__________________
 
 **Optimization problem:** Problems those requires minimum or maximum result.
 - the solutions those satisfies the constraint of any problem are the feasible solutions.
