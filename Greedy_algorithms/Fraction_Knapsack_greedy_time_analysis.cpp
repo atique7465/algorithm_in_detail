@@ -1,5 +1,6 @@
 /// choosing the items with as high value-to-weight ratios as possible.
 /// Sorting by any advanced algorithm is O(N log N)
+/// resource: https://www.youtube.com/watch?v=oTTzNMHM05I&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=40
 
 #include<bits/stdc++.h>
 #include <chrono>
