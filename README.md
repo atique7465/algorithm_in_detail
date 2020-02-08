@@ -62,6 +62,7 @@ https://www.quora.com/Whats-the-difference-between-greedy-algorithm-and-dynamic-
 # Backtracking
 >**<p align="justify">Backtracking is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time<p/>**
  - its kinda bruteforce approach used when we may have multiple solutions and we want all of them.
+ - a **State space tree** generated and feasible solution will be taken from that tree with some sort of bounding function / condition.
  
  **Diffrence between Backtracking & Branch and Bound:**
  - Backtracking use DFS approach to test and find solutions.
