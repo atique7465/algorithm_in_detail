@@ -58,3 +58,7 @@
 01. [https://en.wikipedia.org/wiki/Time_complexity](url)
 https://www.quora.com/Whats-the-difference-between-greedy-algorithm-and-dynamic-programming-Is-a-greedy-program-a-subset-of-dynamic-programming
 02. http://www.shafaetsplanet.com/?p=1022
+
+# Backtracking
+>**<p align="justify">Backtracking is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time<p/>**
+ - its kinda bruteforce approach used when we may have multiple solutions and we want all of them.
