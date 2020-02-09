@@ -2,7 +2,7 @@
 /// Resource 02: https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/
 /// problem statement : Given a dictionary, a method to do lookup in dictionary and a M x N board where every cell has one character.
 ///                     Find all possible words that can be formed by a sequence of 8 adjacent characters without repeat.
-/// This is a DFS based solution with huge time complexity.
+/// This is a DFS based solution with huge time complexity kind of O(boardRow * boardColumn * 8^(boardRow * boardColumn) ).
 
 #include<bits/stdc++.h>
 using namespace std;
