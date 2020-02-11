@@ -67,3 +67,8 @@ https://www.quora.com/Whats-the-difference-between-greedy-algorithm-and-dynamic-
  **Diffrence between Backtracking & Branch and Bound:**
  - Backtracking use DFS approach to test and find solutions.
  - Branch and Bound use BFS for test and find the solutions.
+ - Branch and Bound are used for minimizasion problem only.
+ 
+ # P, NP, NP-complete, NP-Hard
+ The video tutorial below explains everything very well:
+ 01. [https://www.youtube.com/watch?v=e2cF8a5aAhE&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=72](url)
