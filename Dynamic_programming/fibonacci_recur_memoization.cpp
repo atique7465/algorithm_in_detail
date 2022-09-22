@@ -1,5 +1,16 @@
-/// fibonacci recursion with memoization [ O(n) ]
-/// resource : http://www.shafaetsplanet.com/planetcoding/?p=1022
+/// Complexity:
+/*  Recursion 
+       - T --> O(n) for linear pattern
+       - M --> O(n) + O(n) [1st for DP, 2nd for stack trace]
+    Tabulation
+       - T --> O(n) for linear pattern
+       - M --> O(n) [No memory required for stack trace]
+    Memory Optimization / Use variable for prev state
+       - T --> O(n) for linear pattern
+       - M --> O(1) [No extra memory required] */
+
+/// resource : 0. https://www.youtube.com/watch?v=tyB0ztf0DNY&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY&index=2&ab_channel=takeUforward
+///            1. http://www.shafaetsplanet.com/planetcoding/?p=1022
 
 #include<bits/stdc++.h>
 #define ll long long int
