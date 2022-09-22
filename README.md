@@ -35,6 +35,8 @@
 # Dynamic Programming
 >**<p align="justify">Dynamic Programming is mainly an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming.<p/>**
 
+**Overlapping Subproblems --> Memoization**
+
 - **What does a “state” stand for?**<br>
   It’s a way to describe a situation, a sub-solution for the problem.
 - **If a problem has tree characteristics below can be solved using DP:**<br>
@@ -54,7 +56,14 @@
    6.	Greedy algorithm work based on choice property whereas Dynamic programming work based on principle of optimality.
    7.	Greedy algorithm follows the top-down strategy whereas Dynamic programming follows the bottom-up strategy.
 
+**Tabulation**<br>
+  - Bottom Up [Base case -> Required Case]
+
+**Tabulation**<br>
+  - Top Down [Required Case -> Base Case]
+
 **source:**
+00. Take u forward: https://www.youtube.com/watch?v=FfXoiwwnxFw&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY&index=1&ab_channel=takeUforward
 01. [https://en.wikipedia.org/wiki/Time_complexity](url)
 https://www.quora.com/Whats-the-difference-between-greedy-algorithm-and-dynamic-programming-Is-a-greedy-program-a-subset-of-dynamic-programming
 02. http://www.shafaetsplanet.com/?p=1022
