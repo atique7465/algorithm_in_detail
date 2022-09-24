@@ -7,7 +7,7 @@ using namespace std;
  * Implementation of <b>"polynomial rolling hash function"</b><br>
  * Ref: https://cp-algorithms.com/string/string-hashing.html
  */
-class StringHashing {
+class RollingHash {
     const int p = 31;
     const int mod = 1e9 + 9;
     int len = 0;
@@ -15,7 +15,7 @@ class StringHashing {
     vector<long long> h;
 
 public:
-    StringHashing(string str) {
+    RollingHash(string str) {
 
         len = str.size();
 
@@ -38,7 +38,7 @@ int main() {
 
     string str = "atiquratiqur";
 
-    StringHashing *sh = new StringHashing(str);
+    RollingHash *sh = new RollingHash(str);
 
     long long h1 = sh->getHash(0, 5);
     long long h2 = sh->getHash(6, 11);
