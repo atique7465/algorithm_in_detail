@@ -71,7 +71,7 @@ public:
         
         while(lo<=hi){
             int mid = (lo+hi)/2;
-            if(v[mid] >= hi){
+            if(v[mid] >= value){
                 ans = mid;
                 hi = mid - 1;
             }else{
@@ -112,7 +112,7 @@ public:
 
         while(lo<=hi){
             int mid = (lo+hi)/2;
-            if(v[mid] > hi){
+            if(v[mid] > value){
                 ans = mid;
                 hi = mid - 1;
             }else{
